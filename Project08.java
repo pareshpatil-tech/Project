@@ -122,23 +122,7 @@ public class Project08 {
        }
      }
 
-       //topper Details
-       else if(choice == 3) { 
-         if(choice == 0) {
-             System.out.println("No Student Data Found ");
-         }  
-         else{       
-            System.out.println("\n-----Topper Details-----\n");
-            Student topper = students.get(0);
-            for(int i=0;i<students.size();i++) {
-                  if(students.get(i).marks > topper.marks) {
-                  topper = students.get(i);
-               }
-             }
-            System.out.println("Topper Details: ");
-            topper.displayDetails();
-           }
-         }
+      
 
          //Remove Details
          else if(choice == 4) {
